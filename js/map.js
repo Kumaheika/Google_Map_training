@@ -10,12 +10,12 @@ function initialize() {
   };
   // Google 的地圖是以 Map 這個類別來代表的，一個 Map 物件代表一個地圖，要多個就 map1、map2....
   var map = new google.maps.Map( document.getElementById('map-canvas'), mapOptions );
-
+  
   //建立map上的 marker
   var marker = new google.maps.Marker({
     position: myCenter, //火車站位置
     animation:google.maps.Animation.BOUNCE, //讓 marker 有動畫
-    //icon:'pinkball.png' //改變 marker 的樣式(圖為相對路徑)
+    icon:'pinkball.png' //改變 marker 的樣式(圖為相對路徑)
   });
   //maker 放到 map 上
   marker.setMap(map);
