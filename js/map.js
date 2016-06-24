@@ -15,7 +15,7 @@ function initialize() {
   var marker = new google.maps.Marker({
     position: myCenter, //火車站位置
     animation:google.maps.Animation.BOUNCE, //讓 marker 有動畫
-    //icon:'pinkball.png' //改變 marker 的樣式(圖為相對路徑)
+    icon:'pinkball.png' //改變 marker 的樣式(圖為相對路徑)
   });
   //maker 放到 map 上
   marker.setMap(map);
